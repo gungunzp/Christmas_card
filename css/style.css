@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 75%;
+    margin: 0;
+    padding: 0;
+}
+
+body.bg {
+    position: relative;
+    font-family: Arial, sans-serif;
+    color: #555;
+    background-color: #98ceff;
+    background: linear-gradient(0deg, #fff 0%, #98ceff 100%);
+    text-align: center;
+}
+
+.snow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+    top: 0;
+    left: 0;
+    z-index: 1;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+    padding-top: 20vh;
+}
+
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px;
+    }
+}
+
+@-moz-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+    100% {
+        background-position: 400px 1000px, 200px 400px, 100px 300px;
+    }
+}
+
+@-webkit-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px;
+    }
+}
+
+@-ms-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px;
+    }
+}
+
+
+/*
+body.bg:after {
+    content: '';
+    position: absolute;
+    height: 1rem;
+    width: 1rem;
+    background-color: #ac2029;
+    border-radius: 50%;
+    top: 2vh;
+    right: 2vw;
+    animation: rec .4s ease-in-out .5s infinite alternate;
+}
+@keyframes rec {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.02);
+    }
+}
+*/
+
+#wreath {
+    width: 15rem;
+}
+
+.one {
+    color: #fff;
+    /*    font-family: 'Mountains of Christmas', cursive;*/
+    /*    font-family: 'Luckiest Guy', cursive;*/
+    /*    font-family: 'Londrina Solid', cursive;*/
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: .9em;
+    text-shadow: 2px 2px 0 #344046, 1px 1px 8px rgba(52, 64, 70, .7), 1px 1px 20px rgba(255, 255, 255, .8);
+    text-transform: uppercase;
+    padding: 1rem 0 1rem;
+}
+
+.two {
+    color: #ac2029;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 8rem;
+    line-height: .9em;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .3), 2px 3px 2px rgba(255, 255, 255, .7);
+}
+
+.row_wrap {
+    display: inline-block;
+    position: relative;
+}
+
+.candy_1,
+.candy_2 {
+    position: absolute;
+    top: 2rem;
+    left: 4.9rem;
+}
+
+.candy_2 {
+    left: 2.2rem;
+}
+
+.candy {
+    width: 5rem;
+    transform: rotate(137deg);
+}
