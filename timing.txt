@@ -1,7 +1,11 @@
 24.12.16
-17:15 - 17:55
-18:30 - 19:00
-19:15 - 22:30
+17:15 - 17:55 = 0:40
+18:30 - 19:00 = 0:30
+19:15 - 22:30 = 3:15
+23:40 - 0:15 = 0:35
+total = 5:00
 
 https://www.iconfinder.com/icons/1651924/birthday_box_christmas_gift_present_icon#size=128
 https://codepen.io/NickyCDK/pen/AIonk
+
+https://gungunzp.github.io/Christmas_card
